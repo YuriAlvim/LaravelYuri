@@ -1,0 +1,253 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+body, html{
+  background-color:#212529;
+  /*box-shadow: inset 0 0 5rem rgba(134, 63, 0, 0.5);*/
+  color: #fff !important;
+}
+
+.cover-container {
+  max-width: 80em;
+}
+
+.cover-container2 {
+  max-width: 50em;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  
+}
+
+.bgcontato {
+  background-color: #212529;
+  
+}
+
+#logo {
+  width: 8em;
+  height: 8em;
+  margin-top: -2em;
+}
+
+.col, .form-group{
+  padding-bottom: 1.5em;
+}
+
+.coluna{
+  display: inline-flex;
+  text-align: justify;
+  margin-left: 8em;
+  
+}
+
+.texto{
+  padding-right: 3em;
+  max-width: 30em;
+  
+}
+
+.vl {
+  border-left: 3px solid #fff;
+  height: 350px;
+  padding-right: 3em;
+  
+}
+
+.fic{
+  font-size: 12px;
+}
+
+.caixas{
+  padding: 4em;
+  display: flex;
+}
+
+.cardi{
+  text-decoration: none ;
+
+}
+
+.jtitle{
+  margin-top: 2em;
+}
+
+.etitle{
+  margin-top: 1em;
+}
+
+.conjum{
+  margin-left: 4em;
+}
+
+.space{
+  margin-top: 4em;
+}
+
+.steam{
+  background-image: url('../img/steam.jpg'); 
+  background-position: center; 
+  background-size: cover;
+
+}
+
+.susu{
+  background-image: url('../img/susuadventure.png'); 
+  background-position: center; 
+  background-size: cover;
+}
+
+.meta{
+  background-image: url('../img/metacritic.jpg'); 
+  background-position: center; 
+  background-size: cover;
+}
+
+.off{
+  background-image: url('../img/albionoffline.png'); 
+  background-position: center; 
+  background-size: cover;
+}
+
+
+
+.btn{
+  background-color: rgb(245, 147, 61);
+}
+
+.sombra{
+  text-shadow: 2px 2px #111;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.subtitulo{
+  text-align: left;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+.subtitulo2{
+  text-align: left;
+  margin-top: 4em;
+}
+
+.carousel{
+  width: 1000px;
+  margin-left: -8em;
+  margin-top: 3em;
+  border-radius: 5px;
+}
+
+.etitle2{
+  margin-top: 3em;
+
+}
+
+.nomes{
+  margin-top: 5em;
+}
+
+.foter{
+  margin-top: 4em   ;
+}
+
+.redondo{
+  border-radius: 50px;
+  border-width: 2px;
+  border-color: #fff;
+  margin-bottom: 3em;
+}
+
+.texton{
+  padding-right: 3em;
+  margin-top: 3em;
+  max-width: 30em;
+  
+}
+
+@media only screen and (max-width: 1000px) {
+ .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  p{
+    font-size: 12px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+  h3{
+    font-size: 18px;
+  }
+
+  h4{
+    font-size: 18px;
+  }
+
+  .card{
+    width: 95%;
+    height: 100px;
+  }
+
+  .carousel{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  
+}
+
+
