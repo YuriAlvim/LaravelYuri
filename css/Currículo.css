@@ -1,0 +1,15 @@
+body {
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 14px;
+}
+li {
+    font-size: 14px;
+}
+
+.msg{
+    margin-top: 9%;
+}
+
