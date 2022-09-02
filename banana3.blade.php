@@ -7,24 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hub | Exercícios de PHP</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <style>
-        html, body{
-            background-color: #222;
-            color: #fff;
-        }
-        
-        h1{
-            margin-top: 2em;
-            text-align: center;
-        }
-        
-        .porta{
-            margin-top: 10em;
-            
-        
-        }
-    </style>
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/hub.css')}}">
+    
 </head>
 
 <body>

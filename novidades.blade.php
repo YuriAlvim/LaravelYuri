@@ -104,8 +104,8 @@
           <div class="jumbotron card card-block bg-dark shadow-lg off">
             <h2 class="sombra">
               Jogo em progresso!
-            </h2 class="sombra">
-            <p>
+            </h2>
+            <p class="sombra">
               Já estamos desenvolvendo um novo jogo, que sairá muito em breve!
             </p>
             <p>
